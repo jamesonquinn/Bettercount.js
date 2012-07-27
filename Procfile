@@ -1,1 +1,1 @@
-web: node base.js
+web: coffee app.coffee

@@ -1,8 +1,25 @@
 {
-  "name": "node-example",
+  "name": "bettercount",
   "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
   "dependencies": {
-    "express": "2.5.x"
+    "express": "3.0.0rc1",
+    "jade": "0.27.0",
+    "backbone": "*",
+    "coffee-script": "*",
+    "dustjs-linkedin": "*",
+    "mocha": "*",
+    "should": "*",
+    "mongoose": "*",
+    "underscore": "*",
+    "socket.io": "*"
+  },
+  , "devDependencies": {
+      "mocha": "0.10.0"
+    , "should": "0.5.1"
   },
   "engines": {
     "node": "0.8.x",
