@@ -10,12 +10,13 @@
     "jade": "0.27.0",
     "backbone": "*",
     "coffee-script": "*",
-    "dustjs-linkedin": "*",
-    "mongoose": "*",
+    "mongoose": "2.4.10",
     "underscore": "*",
-    "socket.io": "*"
+    "socket.io": "*",
+    "async": "0.1.22"
   },
   "devDependencies": {
+      "sideline": "1.2.0",
       "mocha": "0.10.0",
       "should": "0.5.1"
   },

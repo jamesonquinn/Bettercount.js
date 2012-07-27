@@ -20,8 +20,12 @@ app.configure ->
 
 app.configure "development", ->
   app.use express.errorHandler()
+  Sideline = require "sideline"
+  Sideline.with(server: app).listen()
 
 app.get "/", routes.index
+app.get "/election/new", routes.newElection
+app.post "/election/new", routes.addElection
 http.createServer(app).listen app.get("port"), ->
   console.log "Express server listening on port " + app.get("port")
 
