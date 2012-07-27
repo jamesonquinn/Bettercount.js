@@ -11,15 +11,13 @@
     "backbone": "*",
     "coffee-script": "*",
     "dustjs-linkedin": "*",
-    "mocha": "*",
-    "should": "*",
     "mongoose": "*",
     "underscore": "*",
     "socket.io": "*"
   },
-  , "devDependencies": {
-      "mocha": "0.10.0"
-    , "should": "0.5.1"
+  "devDependencies": {
+      "mocha": "0.10.0",
+      "should": "0.5.1"
   },
   "engines": {
     "node": "0.8.x",
